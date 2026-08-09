@@ -1,0 +1,1 @@
+const b=document.getElementById('menu'),n=document.getElementById('nav');b.onclick=()=>n.style.display=n.style.display==='flex'?'none':'flex';n.querySelectorAll('a').forEach(a=>a.onclick=()=>{if(innerWidth<851)n.style.display='none'});
